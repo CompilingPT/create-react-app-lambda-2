@@ -64,7 +64,7 @@ function Settings() {
   const handleAmountChange = (event) => {
     dispatch({
       type: 'CHANGE_AMOUNT',
-      value: event.target.value
+      amount_of_questions: event.target.value,
     })
   }
 

@@ -9,7 +9,6 @@ import './App.css'
 function App() {
   const questions = useSelector((state) => state.questions)
   const questionIndex = useSelector((state) => state.index)
-
   let component
 
   if (questions.length && questionIndex + 1 <= questions.length) {
